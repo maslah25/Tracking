@@ -41,7 +41,7 @@ params.minInertiaRatio = 0.05
 blobdetector = cv2.SimpleBlobDetector_create(params)
 
 # capture object to read the frame from the video
-capture = cv2.VideoCapture("Frame/TrackingTwoPeople.avi")
+capture = cv2.VideoCapture("Frame/testvideo2.mp4")
 
 
 
