@@ -18,7 +18,7 @@ class Foreground_Background:
 
 processors = [Foreground_Background(), prac()]
 
-capture = cv2.VideoCapture("Frame/busystreet.mp4")
+capture = cv2.VideoCapture("Frame/testvideo2.mp4")
 
 while True:
     ret, frame=capture.read()
