@@ -13,6 +13,6 @@ class prac:
         # stack images vertically
         self.result = np.concatenate((foreground,shadow),axis=1)
 
-
+    # this is defining in returning the result.
     def getResult(self):
         return("prac", self.result)
